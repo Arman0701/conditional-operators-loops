@@ -16,4 +16,4 @@ function replaceWith(sentence, words){
 
 console.log(replaceWith('_, we have a _.', ['Houston', 'problem']));
 console.log(replaceWith('If at _ you don\'t _, try, try _.', ['first', 'succeed', 'again']));
-console.log(replaceWith('May the _ _ _ _', ['Force', 'be', 'with', 'you']));
+console.log(replaceWith('May the _ _ _ _.', ['Force', 'be', 'with', 'you']));
