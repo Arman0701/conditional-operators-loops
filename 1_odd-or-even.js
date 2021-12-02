@@ -6,5 +6,6 @@ function oddOrEven(number){
     return number % 2==0 ? "even" : "odd";
 }
 
-console.log(oddOrEven(5)); // returns "odd"
-console.log(oddOrEven(4)); // returns "even"
+console.log(oddOrEven(125)); // returns "odd"
+console.log(oddOrEven(35)); // returns "odd"
+console.log(oddOrEven(20)); // returns "even"
