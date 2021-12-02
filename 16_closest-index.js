@@ -21,7 +21,6 @@ function closestTo(numbersStr, number){
         }
     }
     return index;
-    // console.log(Math.min(...diffArray));
 }
 
 console.log(closestTo([21, -9, 15, 2116, -71, 33], -71));
