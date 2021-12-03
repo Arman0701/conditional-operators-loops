@@ -192,7 +192,7 @@ for (var i = 0; i < a.length; i++) {
 #### 3 7 10 
 #### 4 8 11 13 
 #### 5 9 12 14 15 
-[Solution]()
+[Solution](https://github.com/Arman0701/conditional-operators-loops/blob/master/20_triangle-of-nums.js)
 
 ---
 # Now Optional Tasks
@@ -203,7 +203,7 @@ for (var i = 0; i < a.length; i++) {
 | 5 | 0 | 
 | 152 | 4 | 
 | 4593653 | 6 | 
-[Solution]()
+[Solution](https://github.com/Arman0701/conditional-operators-loops/blob/master/optional-1_difference-of-digits.js)
 
 ---
 ### 2.Convert base-2 number to base-10 
@@ -212,7 +212,7 @@ for (var i = 0; i < a.length; i++) {
 | 010 | 2 | 
 | 10010 | 18 | 
 | 0101011 | 43 | 
-[Solution]()
+[Solution](https://github.com/Arman0701/conditional-operators-loops/blob/master/optional-2_convert-binary-to-decimal.js)
 
 ---
 ### 3. Takes two arrays and insert the second array in the middle of the first array. The first array always has two elements. 
@@ -221,7 +221,7 @@ for (var i = 0; i < a.length; i++) {
 |  [1, 10], [2, 3, 4, 5, 6, 7, 8, 9] | [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]| 
 |  [15, 150], [45, 75, 35] | [15, 45, 75, 35, 150] | 
 |  [[1, 2], [5, 6]], [[3, 4]] | [[1, 2], [3, 4], [5, 6]] | 
-[Solution]()
+[Solution](https://github.com/Arman0701/conditional-operators-loops/blob/master/optional-3_insert-array.js)
 
 ---
 ### 4.  Enter a positive number. Calculate and print its factorial. ( n! = n _ (n-1) _ (n-2) _ … _ 3 _ 2 _ 1 , 0! = 1 ) 
@@ -230,7 +230,7 @@ for (var i = 0; i < a.length; i++) {
 | 5 | “5! = 120” | 
 | 1 | “1! = 1” | 
 | 7 | “7! = 5040” | 
-[Solution]()
+[Solution](https://github.com/Arman0701/conditional-operators-loops/blob/master/optional-4_factorial.js)
 
 ---
 ### 5.Write a program to check the validity of password input by users. Validation : 
@@ -243,6 +243,6 @@ for (var i = 0; i < a.length; i++) {
 |---|---|
 | 12asdf | “Invalid” | 
 | Aaza1234566# | “Valid” | 
-[Solution]()
+[Solution](https://github.com/Arman0701/conditional-operators-loops/blob/master/optional-5_simple-validation.js)
 
 # The END ! :)
