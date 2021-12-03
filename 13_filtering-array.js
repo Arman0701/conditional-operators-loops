@@ -8,7 +8,7 @@ function filteringNumbers(array){
     let odds = [];
     let evens = [];
     for (let i=0; i<array.length; i++){
-        if (typeof array[i] == 'number'){
+        if (typeof array[i] == 'number' && !isNaN(array[i])){
             array[i] % 2 === 0 ? evens.push(array[i]) : odds.push(array[i]);
         }
     }
@@ -18,4 +18,4 @@ function filteringNumbers(array){
 
 console.log(filteringNumbers([8, 8, "meh", 6]));
 console.log(filteringNumbers([8, 0, 1, "hey", 12, 5 , true, "2", null, 7, 3]));
-console.log(filteringNumbers([null, null, 1, undefined, 5, 9, false]));
+console.log(filteringNumbers([null, null, 1, undefined, 5, 9, false, NaN]));
