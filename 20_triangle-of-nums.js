@@ -17,7 +17,6 @@ function triangle(height){
     }  
     let k=0;
     while(result[height-1].length<height){
-        console.log(number);
         for (let i=k++; i<height; i++){
             result[i].push(number++);
         }
