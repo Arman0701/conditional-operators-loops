@@ -1,19 +1,25 @@
 'use strict'
 
 // Print the following pattern:
+/* 
+1
+2 6      
+3 7 10         
+4 8 11 13      
+5 9 12 14 15   
+*/
 
-function triangle(number){
-    let h = 5;
+function triangle(height){
     let result = [];
-    let tiv = 1;
-    for (let i=0; i<number; i++){
+    let number = 1;
+    for (let i=0; i<height; i++){
         result.push([]);
     }  
     let k=0;
-    while(result[number-1].length<number){
-        console.log(tiv);
-        for (let i=k++; i<number; i++){
-            result[i].push(tiv++);
+    while(result[height-1].length<height){
+        console.log(number);
+        for (let i=k++; i<height; i++){
+            result[i].push(number++);
         }
     }
     console.log(result);
@@ -21,16 +27,3 @@ function triangle(number){
 
 console.log(triangle(7));
 
-/* 
-
-
-1
-2 6      
-3 7 10         
-4 8 11 13      
-5 9 12 14 15   
-
-
-
-
-*/
