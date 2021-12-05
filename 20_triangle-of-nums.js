@@ -3,16 +3,23 @@
 // Print the following pattern:
 
 function triangle(number){
-    let str = '';
-    for (let i=1; i<=5; i++){
-        str += String(i);
-        for(let j=0; j<i; j++){
-            str += String(j);
+    let h = 5;
+    let result = [];
+    let tiv = 1;
+    for (let i=0; i<number; i++){
+        result.push([]);
+    }  
+    let k=0;
+    while(result[number-1].length<number){
+        console.log(tiv);
+        for (let i=k++; i<number; i++){
+            result[i].push(tiv++);
         }
     }
+    console.log(result);
 }
 
-console.log(triangle(20));
+console.log(triangle(7));
 
 /* 
 
