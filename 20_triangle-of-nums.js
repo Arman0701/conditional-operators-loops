@@ -18,11 +18,11 @@ function triangle(height){
     let k=0;
     while(result[height-1].length<height){
         for (let i=k++; i<height; i++){
-            result[i].push(number++);
+            result[i].push(String(number++));
         }
     }
-    console.log(result);
+    return result.join('\n');
 }
 
-console.log(triangle(7));
+console.log(triangle(5));
 
