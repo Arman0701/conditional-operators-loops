@@ -8,7 +8,7 @@
 // Maximum length 16 characters.
 
 function validate(password){
-    if(/[^a-zA-Z]{1,}[0-9]{1,}[$#@]{6,16}/.test(password)){ // wrong code
+    if(/[^a-zA-Z]{1,}[0-9]{1,}[$#@]$/.test(password) && password.length>=6 && password.length<=16){ // wrong code
         return 'valid'
     } else return'invalid'
 }
