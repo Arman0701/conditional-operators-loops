@@ -9,6 +9,18 @@
 5 9 12 14 15   
 */
 
+function calc(n){
+    let i = 2;
+    let size = 1;
+    let lSize = size;
+    for (; ; i++){
+        lSize = size;
+        size += i;
+        if (size>=n) break;
+    }
+    return n-lSize < size-n ? --i : i;
+}
+
 function triangle(height){
     let result = [];
     let number = 1;
@@ -24,5 +36,6 @@ function triangle(height){
     return result.join('\n');
 }
 
-console.log(triangle(5));
+console.log(triangle(9)); // by height
+console.log(triangle(calc(48))); // by near size 
 
